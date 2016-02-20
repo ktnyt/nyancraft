@@ -1,0 +1,945 @@
+[00:44:07] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:44:07] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[00:44:07] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_73, running on Mac OS X:x86_64:10.10.5, installed at /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home
+[00:44:07] [main/DEBUG] [FML/]: Java classpath at launch is /Users/kotone/Library/Application Support/minecraft/server/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:44:07] [main/DEBUG] [FML/]: Java library path at launch is /Users/kotone/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[00:44:07] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[00:44:07] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:44:07] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:44:07] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:44:07] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:44:07] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[00:44:07] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:44:07] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:44:07] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/kotone/Library/Application Support/minecraft/server/.
+[00:44:07] [main/DEBUG] [FML/]: Discovering coremods
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy AdvancedSolarPanel-1.7.10-3.5.1.jar
+[00:44:07] [main/DEBUG] [FML/]: Not found coremod data in AdvancedSolarPanel-1.7.10-3.5.1.jar
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy AnimationAPI-1.7.10-1.2.4.jar
+[00:44:07] [main/DEBUG] [FML/]: Not found coremod data in AnimationAPI-1.7.10-1.2.4.jar
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy Baubles-1.7.10-1.0.1.10.jar
+[00:44:07] [main/DEBUG] [FML/]: Not found coremod data in Baubles-1.7.10-1.0.1.10.jar
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy CocoaInput-1.7.10-2.1.10.jar
+[00:44:07] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CocoaInput-1.7.10-2.1.10.jar, it will be examined later for regular @Mod instances
+[00:44:07] [main/DEBUG] [FML/]: Instantiating coremod class CocoaCorePlugin
+[00:44:07] [main/WARN] [FML/]: The coremod com.Axeryok.CocoaInput.asm.CocoaCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:44:07] [main/DEBUG] [FML/]: Enqueued coremod CocoaCorePlugin
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy CraftGuide-1.6.8.2-forge.jar
+[00:44:07] [main/DEBUG] [FML/]: Not found coremod data in CraftGuide-1.6.8.2-forge.jar
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy Flans Mod-1.7.10-4.9.0.jar
+[00:44:07] [main/DEBUG] [FML/]: Not found coremod data in Flans Mod-1.7.10-4.9.0.jar
+[00:44:07] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.2.814-experimental.jar
+[00:44:07] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.2.814-experimental.jar, it will be examined later for regular @Mod instances
+[00:44:07] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[00:44:07] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:44:08] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[00:44:08] [main/DEBUG] [FML/]: Examining for coremod candidacy InventoryTweaks-1.59-dev-152.jar
+[00:44:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.59-dev-152.jar, it will be examined later for regular @Mod instances
+[00:44:08] [main/DEBUG] [FML/]: Instantiating coremod class FMLPlugin
+[00:44:08] [main/WARN] [FML/]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:44:08] [main/DEBUG] [FML/]: Added access transformer class invtweaks.forge.asm.ITAccessTransformer to enqueued access transformers
+[00:44:08] [main/DEBUG] [FML/]: Enqueued coremod FMLPlugin
+[00:44:08] [main/DEBUG] [FML/]: Examining for coremod candidacy Thaumcraft-1.7.10-4.2.3.5.jar
+[00:44:08] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in Thaumcraft-1.7.10-4.2.3.5.jar, it will be examined later for regular @Mod instances
+[00:44:08] [main/DEBUG] [FML/]: Instantiating coremod class DepLoader
+[00:44:08] [main/WARN] [FML/]: The coremod thaumcraft.codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:44:08] [main/DEBUG] [FML/]: Enqueued coremod DepLoader
+[00:44:08] [main/DEBUG] [FML/]: Examining for coremod candidacy TragicVillager-1.7.10-2.jar
+[00:44:08] [main/DEBUG] [FML/]: Not found coremod data in TragicVillager-1.7.10-2.jar
+[00:44:08] [main/DEBUG] [FML/]: Examining for coremod candidacy twilightforest-1.7.10-2.3.7.jar
+[00:44:08] [main/DEBUG] [FML/]: Not found coremod data in twilightforest-1.7.10-2.3.7.jar
+[00:44:08] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:44:08] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:44:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:44:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:44:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:08] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[00:44:08] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[00:44:09] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[00:44:09] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:44:09] [main/DEBUG] [FML/]: Injection complete
+[00:44:09] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[00:44:09] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:44:10] [main/DEBUG] [FML/]: Read 527 binary patches
+[00:44:11] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:44:11] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:44:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:11] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[00:44:11] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[00:44:11] [main/DEBUG] [FML/]: Injection complete
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:44:11] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:44:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:11] [main/DEBUG] [FML/]: Injecting coremod CocoaCorePlugin {com.Axeryok.CocoaInput.asm.CocoaCorePlugin} class transformers
+[00:44:11] [main/TRACE] [FML/]: Registering transformer com.Axeryok.CocoaInput.asm.CocoaTrans
+[00:44:11] [main/DEBUG] [FML/]: Injection complete
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin for CocoaCorePlugin {com.Axeryok.CocoaInput.asm.CocoaCorePlugin}
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin CocoaCorePlugin
+[00:44:11] [main/DEBUG] [FML/]: Coremod plugin class CocoaCorePlugin run successfully
+[00:44:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:11] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
+[00:44:11] [main/DEBUG] [FML/]: Injection complete
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin IC2core
+[00:44:11] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
+[00:44:11] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
+[00:44:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:11] [main/DEBUG] [FML/]: Injecting coremod FMLPlugin {invtweaks.forge.asm.FMLPlugin} class transformers
+[00:44:11] [main/TRACE] [FML/]: Registering transformer invtweaks.forge.asm.ContainerTransformer
+[00:44:11] [main/DEBUG] [FML/]: Injection complete
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin for FMLPlugin {invtweaks.forge.asm.FMLPlugin}
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin FMLPlugin
+[00:44:11] [main/DEBUG] [FML/]: Coremod plugin class FMLPlugin run successfully
+[00:44:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:44:11] [main/DEBUG] [FML/]: Injecting coremod DepLoader {thaumcraft.codechicken.core.launch.DepLoader} class transformers
+[00:44:11] [main/DEBUG] [FML/]: Injection complete
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin for DepLoader {thaumcraft.codechicken.core.launch.DepLoader}
+[00:44:11] [main/DEBUG] [FML/]: Running coremod plugin DepLoader
+[00:44:12] [main/DEBUG] [FML/]: Coremod plugin class DepLoader run successfully
+[00:44:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:44:12] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[00:44:12] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[00:44:12] [main/DEBUG] [FML/]: Loaded 9 rules from AccessTransformer config file invtweaks_at.cfg
+[00:44:12] [main/DEBUG] [FML/]: Validating minecraft
+[00:44:12] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:44:12] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[00:44:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[00:44:13] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:44:23] [main/WARN] [FML/]: =============================================================
+[00:44:23] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[00:44:23] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[00:44:23] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[00:44:23] [main/WARN] [FML/]: =============================================================
+[00:44:24] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[00:44:24] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[00:44:24] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[00:44:24] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[00:44:24] [Server thread/DEBUG] [FML/]: File /Users/kotone/Library/Application Support/minecraft/server/config/injectedDependencies.json not found. No dependencies injected
+[00:44:24] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, com.Axeryok.CocoaInput.asm.CocoaMod]
+[00:44:25] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/kotone/Library/Application Support/minecraft/server/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, examining for mod candidates
+[00:44:25] [Server thread/TRACE] [FML/]: Skipping known library file /Users/kotone/Library/Application Support/minecraft/server/mods/CocoaInput-1.7.10-2.1.10.jar
+[00:44:25] [Server thread/TRACE] [FML/]: Skipping known library file /Users/kotone/Library/Application Support/minecraft/server/mods/industrialcraft-2-2.2.814-experimental.jar
+[00:44:25] [Server thread/TRACE] [FML/]: Skipping known library file /Users/kotone/Library/Application Support/minecraft/server/mods/InventoryTweaks-1.59-dev-152.jar
+[00:44:25] [Server thread/TRACE] [FML/]: Skipping known library file /Users/kotone/Library/Application Support/minecraft/server/mods/Thaumcraft-1.7.10-4.2.3.5.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/kotone/Library/Application Support/minecraft/server/./mods/ic2/EJML-core-0.26.jar, examining for mod candidates
+[00:44:25] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:44:25] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:44:25] [Server thread/INFO] [FML/]: Searching /Users/kotone/Library/Application Support/minecraft/server/mods for mods
+[00:44:25] [Server thread/DEBUG] [FML/]: Ignoring unknown file .DS_Store in mods directory
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AdvancedSolarPanel-1.7.10-3.5.1.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AnimationAPI-1.7.10-1.2.4.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CocoaInput-1.7.10-2.1.10.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CraftGuide-1.6.8.2-forge.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Flans Mod-1.7.10-4.9.0.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate mod directory ic2
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file industrialcraft-2-2.2.814-experimental.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file InventoryTweaks-1.59-dev-152.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file LuckyBlock_1-8_v6-0-1.zip
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Thaumcraft-1.7.10-4.2.3.5.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file TragicVillager-1.7.10-2.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file twilightforest-1.7.10-2.3.7.jar
+[00:44:25] [Server thread/INFO] [FML/]: Also searching /Users/kotone/Library/Application Support/minecraft/server/mods/1.7.10 for mods
+[00:44:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Baubles-1.7.10-1.0.1.10.jar
+[00:44:25] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[00:44:25] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file EJML-core-0.26.jar for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: The mod container EJML-core-0.26.jar appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: The mod container 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/INFO] [FML/]: Attempting to reparse the mod container 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: The mod container 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.mod_CutAllSMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.cutall.mod_CutAllSMP) - loading
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.cutall.Packet_mod_CutAll following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: The mod container 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP) - loading
+[00:44:26] [Server thread/INFO] [FML/]: Attempting to reparse the mod container 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: The mod container 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip appears to be missing an mcmod.info file
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a class net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP following modloader naming convention but not directly a BaseMod or currently seen subclass
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP) - loading
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file AdvancedSolarPanel-1.7.10-3.5.1.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file AdvancedSolarPanel-1.7.10-3.5.1.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (advsolar.common.AdvancedSolarPanel) - loading
+[00:44:26] [Server thread/TRACE] [AdvancedSolarPanel/]: Parsed dependency info : [IC2] [IC2, gregtech_addon, AppliedEnergistics] []
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file AnimationAPI-1.7.10-1.2.4.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file AnimationAPI-1.7.10-1.2.4.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thehippomaster.AnimationAPI.AnimationAPI) - loading
+[00:44:26] [Server thread/TRACE] [AnimationAPI/]: Parsed dependency info : [] [] []
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file CocoaInput-1.7.10-2.1.10.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CocoaInput-1.7.10-2.1.10.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.Axeryok.CocoaInput.CocoaInput) - loading
+[00:44:26] [Server thread/TRACE] [CocoaInput/]: Parsed dependency info : [] [] []
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file CraftGuide-1.6.8.2-forge.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CraftGuide-1.6.8.2-forge.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (uristqwerty.CraftGuide.CraftGuide_FML) - loading
+[00:44:26] [Server thread/TRACE] [craftguide/]: Parsed dependency info : [] [] []
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file Flans Mod-1.7.10-4.9.0.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Flans Mod-1.7.10-4.9.0.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.flansmod.common.FlansMod) - loading
+[00:44:26] [Server thread/TRACE] [flansmod/]: Parsed dependency info : [] [] []
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
+[00:44:26] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
+[00:44:26] [Server thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.2.814-experimental.jar for potential mods
+[00:44:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file industrialcraft-2-2.2.814-experimental.jar
+[00:44:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ic2.core.IC2) - loading
+[00:44:26] [Server thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[10.13.0.1200,)] [Forge@[10.13.0.1200,)] []
+[00:44:27] [Server thread/DEBUG] [FML/]: Examining file InventoryTweaks-1.59-dev-152.jar for potential mods
+[00:44:27] [Server thread/TRACE] [FML/]: Located mcmod.info file in file InventoryTweaks-1.59-dev-152.jar
+[00:44:27] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (invtweaks.forge.InvTweaksMod) - loading
+[00:44:27] [Server thread/TRACE] [inventorytweaks/]: Parsed dependency info : [FML@[7.2.0,), Forge@[10.12.1,)] [FML@[7.2.0,), Forge@[10.12.1,)] []
+[00:44:27] [Server thread/DEBUG] [inventorytweaks/]: Attempting to load the file version.properties from InventoryTweaks-1.59-dev-152.jar to locate a version number for inventorytweaks
+[00:44:27] [Server thread/DEBUG] [inventorytweaks/]: Found version 1.59-dev-152-cf6e263 for mod inventorytweaks in version.properties, using
+[00:44:27] [Server thread/DEBUG] [FML/]: Examining file LuckyBlock_1-8_v6-0-1.zip for potential mods
+[00:44:27] [Server thread/TRACE] [FML/]: Located mcmod.info file in file LuckyBlock_1-8_v6-0-1.zip
+[00:44:27] [Server thread/DEBUG] [FML/]: Examining file Thaumcraft-1.7.10-4.2.3.5.jar for potential mods
+[00:44:27] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Thaumcraft-1.7.10-4.2.3.5.jar
+[00:44:27] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thaumcraft.common.Thaumcraft) - loading
+[00:44:27] [Server thread/TRACE] [Thaumcraft/]: Parsed dependency info : [Forge@[10.13.2,), Baubles@[1.0.1.10,)] [Forge@[10.13.2,), Baubles@[1.0.1.10,)] []
+[00:44:27] [Server thread/DEBUG] [FML/]: Examining file TragicVillager-1.7.10-2.jar for potential mods
+[00:44:27] [Server thread/TRACE] [FML/]: Located mcmod.info file in file TragicVillager-1.7.10-2.jar
+[00:44:27] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (villager.TragicVillager) - loading
+[00:44:27] [Server thread/TRACE] [tragicVillager/]: Parsed dependency info : [] [] []
+[00:44:27] [Server thread/DEBUG] [FML/]: Examining file twilightforest-1.7.10-2.3.7.jar for potential mods
+[00:44:27] [Server thread/TRACE] [FML/]: Located mcmod.info file in file twilightforest-1.7.10-2.3.7.jar
+[00:44:27] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (twilightforest.TwilightForestMod) - loading
+[00:44:27] [Server thread/TRACE] [TwilightForest/]: Parsed dependency info : [] [] []
+[00:44:28] [Server thread/DEBUG] [FML/]: Examining file Baubles-1.7.10-1.0.1.10.jar for potential mods
+[00:44:28] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Baubles-1.7.10-1.0.1.10.jar
+[00:44:28] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (baubles.common.Baubles) - loading
+[00:44:28] [Server thread/TRACE] [Baubles/]: Parsed dependency info : [Forge@[10.13.2,)] [Forge@[10.13.2,)] []
+[00:44:28] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 17 mods to load
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in flansmod
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.tile (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.info (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API thaumcraft.api (owned by Thaumcraft providing Thaumcraft|API) embedded in Thaumcraft
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.prefab (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in flansmod
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.network (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.util (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API baubles.api (owned by Baubles providing Baubles|API) embedded in Baubles
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.tile (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.recipe (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.energy.event (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.item (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.event (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found API ic2.api.reactor (owned by IC2 providing IC2API) embedded in IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: []
+[00:44:28] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[00:44:28] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [flansmod]
+[00:44:28] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Thaumcraft|API: owner: Thaumcraft, dependents: []
+[00:44:28] [Server thread/DEBUG] [FML/]: Creating API container dummy for API IC2API: owner: IC2, dependents: []
+[00:44:28] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [flansmod]
+[00:44:28] [Server thread/TRACE] [FML/]: Received a system property request ''
+[00:44:28] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:44:28] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:44:28] [Server thread/DEBUG] [AdvancedSolarPanel/]: Enabling mod AdvancedSolarPanel
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in AdvancedSolarPanel-1.7.10-3.5.1.jar [en_US, ru_RU]
+[00:44:28] [Server thread/DEBUG] [AnimationAPI/]: Enabling mod AnimationAPI
+[00:44:28] [Server thread/DEBUG] [CocoaInput/]: Enabling mod CocoaInput
+[00:44:28] [Server thread/DEBUG] [craftguide/]: Enabling mod craftguide
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in CraftGuide-1.6.8.2-forge.jar [en_US, fr_CA, fr_FR, pt_BR, ru_RU, zh_CN, zh_TW]
+[00:44:28] [Server thread/DEBUG] [flansmod/]: Enabling mod flansmod
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in Flans Mod-1.7.10-4.9.0.jar [de_DE, en_US, fr_FR, pt_BR, ru_RU, zh_CN]
+[00:44:28] [Server thread/DEBUG] [IC2/]: Enabling mod IC2
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in industrialcraft-2-2.2.814-experimental.jar [en_IC]
+[00:44:28] [Server thread/DEBUG] [inventorytweaks/]: Enabling mod inventorytweaks
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in InventoryTweaks-1.59-dev-152.jar [da_DK, de_DE, en_US, es_ES, fr_CA, fr_FR, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nl_NL, no_NO, pl_PL, pt_BR, pt_PT, ru_RU, sl_SI, sv_SE, tr_TR, uk_UA, zh_CN, zh_TW, et_EE]
+[00:44:28] [Server thread/DEBUG] [Thaumcraft/]: Enabling mod Thaumcraft
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in Thaumcraft-1.7.10-4.2.3.5.jar [ca_ES, cs_CZ, de_DE, en_US, es_AR, es_ES, es_MX, es_UY, es_VE, et_EE, fi_FI, fr_FR, it_IT, ja_JP, ko_KR, nl_NL, pt_BR, pt_PT, ru_RU, sv_SE, zh_CN, zh_TW]
+[00:44:28] [Server thread/DEBUG] [tragicVillager/]: Enabling mod tragicVillager
+[00:44:28] [Server thread/DEBUG] [FML/]: Found translations in TragicVillager-1.7.10-2.jar [en_US, ja_JP]
+[00:44:28] [Server thread/DEBUG] [TwilightForest/]: Enabling mod TwilightForest
+[00:44:29] [Server thread/DEBUG] [FML/]: Found translations in twilightforest-1.7.10-2.3.7.jar [de_DE, en_US, ru_RU, zh_CN, zh_TW]
+[00:44:29] [Server thread/DEBUG] [Baubles/]: Enabling mod Baubles
+[00:44:29] [Server thread/DEBUG] [FML/]: Found translations in Baubles-1.7.10-1.0.1.10.jar [ar_SA, cs_CZ, da_DK, de_DE, en_US, et_EE, fi_FI, fr_FR, it_IT, ko_KR, nl_NL, no_NO, pl_PL, pt_BR, ru_RU, zh_CN, zh_TW]
+[00:44:29] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:44:29] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[00:44:29] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[00:44:29] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[00:44:29] [Server thread/DEBUG] [FML/]: Mod sorting data
+[00:44:29] [Server thread/DEBUG] [FML/]: 	net.minecraft.scalar.cutall.mod_CutAllSMP(CutAllSMP:2.5.0): 1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP(PickupWidelySMP:1.2.3): 1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.2.814-experimental): industrialcraft-2-2.2.814-experimental.jar (required-after:Forge@[10.13.0.1200,))
+[00:44:29] [Server thread/DEBUG] [FML/]: 	AdvancedSolarPanel(Advanced Solar Panels:1.7.10-3.5.1): AdvancedSolarPanel-1.7.10-3.5.1.jar (required-after:IC2; after:gregtech_addon; after:AppliedEnergistics;)
+[00:44:29] [Server thread/DEBUG] [FML/]: 	AnimationAPI(AnimationAPI:1.2.4): AnimationAPI-1.7.10-1.2.4.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	CocoaInput(CocoaInput:2.1.10): CocoaInput-1.7.10-2.1.10.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	craftguide(CraftGuide:1.6.8.2): CraftGuide-1.6.8.2-forge.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.2): Flans Mod-1.7.10-4.9.0.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.2): Flans Mod-1.7.10-4.9.0.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	flansmod(Flan's Mod:4.9.0): Flans Mod-1.7.10-4.9.0.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	inventorytweaks(Inventory Tweaks:1.59-dev-152-cf6e263): InventoryTweaks-1.59-dev-152.jar (required-after:FML@[7.2.0,);required-after:Forge@[10.12.1,))
+[00:44:29] [Server thread/DEBUG] [FML/]: 	Baubles(Baubles:1.0.1.10): Baubles-1.7.10-1.0.1.10.jar (required-after:Forge@[10.13.2,);)
+[00:44:29] [Server thread/DEBUG] [FML/]: 	Thaumcraft(Thaumcraft:4.2.3.5): Thaumcraft-1.7.10-4.2.3.5.jar (required-after:Forge@[10.13.2,);required-after:Baubles@[1.0.1.10,))
+[00:44:29] [Server thread/DEBUG] [FML/]: 	tragicVillager(TragicVillager:1.7.10-2): TragicVillager-1.7.10-2.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	TwilightForest(The Twilight Forest:2.3.7): twilightforest-1.7.10-2.3.7.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.0.1.10): Baubles-1.7.10-1.0.1.10.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	Thaumcraft|API(API: Thaumcraft|API:4.2.2.0): Thaumcraft-1.7.10-4.2.3.5.jar ()
+[00:44:29] [Server thread/DEBUG] [FML/]: 	IC2API(API: IC2API:1.0): industrialcraft-2-2.2.814-experimental.jar ()
+[00:44:29] [Server thread/INFO] [FML/]: FML has found a non-mod file LuckyBlock_1-8_v6-0-1.zip in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[00:44:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:44:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:44:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.003s
+[00:44:29] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:44:29] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:44:29] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:44:29] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[00:44:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, cocoainputcore, net.minecraft.scalar.cutall.mod_CutAllSMP, net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP, AdvancedSolarPanel, AnimationAPI, CocoaInput, craftguide, flansmod, IC2, inventorytweaks, Thaumcraft, tragicVillager, TwilightForest, Baubles] at CLIENT
+[00:44:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, cocoainputcore, net.minecraft.scalar.cutall.mod_CutAllSMP, net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP, AdvancedSolarPanel, AnimationAPI, CocoaInput, craftguide, flansmod, IC2, inventorytweaks, Thaumcraft, tragicVillager, TwilightForest, Baubles] at SERVER
+[00:44:30] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:44:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1.093s
+[00:44:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[00:44:30] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[00:44:30] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[00:44:30] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[00:44:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[00:44:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.028s
+[00:44:30] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sending event FMLConstructionEvent to mod cocoainputcore
+[00:44:30] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sent event FMLConstructionEvent to mod cocoainputcore
+[00:44:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CocoaInputCore took 0.001s
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.cutall.mod_CutAllSMP]: Mod net.minecraft.scalar.cutall.mod_CutAllSMP is using network checker : Accepting version 2.5.0
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.cutall.mod_CutAllSMP]: Testing mod net.minecraft.scalar.cutall.mod_CutAllSMP to verify it accepts its own version in a remote connection
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.cutall.mod_CutAllSMP]: The mod net.minecraft.scalar.cutall.mod_CutAllSMP accepts its own version (2.5.0)
+[00:44:30] [Server thread/DEBUG] [FML/net.minecraft.scalar.cutall.mod_CutAllSMP]: Attempting to inject @SidedProxy classes into net.minecraft.scalar.cutall.mod_CutAllSMP
+[00:44:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CutAllSMP took 0.077s
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP]: Mod net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP is using network checker : Accepting version 1.2.3
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP]: Testing mod net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP to verify it accepts its own version in a remote connection
+[00:44:30] [Server thread/TRACE] [FML/net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP]: The mod net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP accepts its own version (1.2.3)
+[00:44:30] [Server thread/DEBUG] [FML/net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP]: Attempting to inject @SidedProxy classes into net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP
+[00:44:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - PickupWidelySMP took 0.009s
+[00:44:30] [Server thread/TRACE] [IC2/IC2]: Sending event FMLConstructionEvent to mod IC2
+[00:44:30] [Server thread/INFO] [FML/IC2]: InvTweaks: net.minecraft.inventory.Container
+[00:44:31] [Server thread/TRACE] [FML/IC2]: Mod IC2 is using network checker : Accepting version 2.2.814-experimental
+[00:44:31] [Server thread/TRACE] [FML/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection
+[00:44:31] [Server thread/TRACE] [FML/IC2]: The mod IC2 accepts its own version (2.2.814-experimental)
+[00:44:31] [Server thread/DEBUG] [FML/IC2]: Attempting to inject @SidedProxy classes into IC2
+[00:44:31] [Server thread/TRACE] [IC2/IC2]: Sent event FMLConstructionEvent to mod IC2
+[00:44:31] [Server thread/DEBUG] [FML/]: Bar Step: Construction - IndustrialCraft 2 took 0.986s
+[00:44:31] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLConstructionEvent to mod AdvancedSolarPanel
+[00:44:31] [Server thread/TRACE] [FML/AdvancedSolarPanel]: Mod AdvancedSolarPanel is using network checker : Accepting version 1.7.10-3.5.1
+[00:44:31] [Server thread/TRACE] [FML/AdvancedSolarPanel]: Testing mod AdvancedSolarPanel to verify it accepts its own version in a remote connection
+[00:44:31] [Server thread/TRACE] [FML/AdvancedSolarPanel]: The mod AdvancedSolarPanel accepts its own version (1.7.10-3.5.1)
+[00:44:31] [Server thread/DEBUG] [FML/AdvancedSolarPanel]: Attempting to inject @SidedProxy classes into AdvancedSolarPanel
+[00:44:31] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLConstructionEvent to mod AdvancedSolarPanel
+[00:44:31] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Advanced Solar Panels took 0.048s
+[00:44:31] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLConstructionEvent to mod AnimationAPI
+[00:44:31] [Server thread/TRACE] [FML/AnimationAPI]: Mod AnimationAPI is using network checker : Accepting version 1.2.4
+[00:44:31] [Server thread/TRACE] [FML/AnimationAPI]: Testing mod AnimationAPI to verify it accepts its own version in a remote connection
+[00:44:31] [Server thread/TRACE] [FML/AnimationAPI]: The mod AnimationAPI accepts its own version (1.2.4)
+[00:44:31] [Server thread/DEBUG] [FML/AnimationAPI]: Attempting to inject @SidedProxy classes into AnimationAPI
+[00:44:31] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLConstructionEvent to mod AnimationAPI
+[00:44:31] [Server thread/DEBUG] [FML/]: Bar Step: Construction - AnimationAPI took 0.018s
+[00:44:31] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sending event FMLConstructionEvent to mod CocoaInput
+[00:44:31] [Server thread/TRACE] [FML/CocoaInput]: Mod CocoaInput is using network checker : Accepting version 2.1.10
+[00:44:31] [Server thread/TRACE] [FML/CocoaInput]: Testing mod CocoaInput to verify it accepts its own version in a remote connection
+[00:44:31] [Server thread/TRACE] [FML/CocoaInput]: The mod CocoaInput accepts its own version (2.1.10)
+[00:44:31] [Server thread/DEBUG] [FML/CocoaInput]: Attempting to inject @SidedProxy classes into CocoaInput
+[00:44:31] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sent event FMLConstructionEvent to mod CocoaInput
+[00:44:31] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CocoaInput took 0.020s
+[00:44:31] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLConstructionEvent to mod craftguide
+[00:44:31] [Server thread/TRACE] [FML/craftguide]: Mod craftguide is using network checker : Accepting version 1.6.8.2
+[00:44:31] [Server thread/TRACE] [FML/craftguide]: Testing mod craftguide to verify it accepts its own version in a remote connection
+[00:44:31] [Server thread/TRACE] [FML/craftguide]: The mod craftguide accepts its own version (1.6.8.2)
+[00:44:31] [Server thread/DEBUG] [FML/craftguide]: Attempting to inject @SidedProxy classes into craftguide
+[00:44:31] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLConstructionEvent to mod craftguide
+[00:44:31] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CraftGuide took 0.031s
+[00:44:31] [Server thread/TRACE] [flansmod/flansmod]: Sending event FMLConstructionEvent to mod flansmod
+[00:44:32] [Server thread/TRACE] [FML/flansmod]: Mod flansmod is using network checker : Accepting range @ALLOWEDVERSIONS@
+[00:44:32] [Server thread/TRACE] [FML/flansmod]: Testing mod flansmod to verify it accepts its own version in a remote connection
+[00:44:32] [Server thread/TRACE] [FML/flansmod]: The mod flansmod accepts its own version (4.9.0)
+[00:44:32] [Server thread/DEBUG] [FML/flansmod]: Attempting to inject @SidedProxy classes into flansmod
+[00:44:32] [Server thread/TRACE] [flansmod/flansmod]: Sent event FMLConstructionEvent to mod flansmod
+[00:44:32] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Flan's Mod took 0.802s
+[00:44:32] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sending event FMLConstructionEvent to mod inventorytweaks
+[00:44:32] [Server thread/TRACE] [FML/inventorytweaks]: Mod inventorytweaks is using network checker : No network checking performed
+[00:44:32] [Server thread/TRACE] [FML/inventorytweaks]: Testing mod inventorytweaks to verify it accepts its own version in a remote connection
+[00:44:32] [Server thread/TRACE] [FML/inventorytweaks]: The mod inventorytweaks accepts its own version (1.59-dev-152-cf6e263)
+[00:44:32] [Server thread/DEBUG] [FML/inventorytweaks]: Attempting to inject @SidedProxy classes into inventorytweaks
+[00:44:32] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sent event FMLConstructionEvent to mod inventorytweaks
+[00:44:32] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Inventory Tweaks took 0.019s
+[00:44:32] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLConstructionEvent to mod Baubles
+[00:44:32] [Server thread/TRACE] [FML/Baubles]: Mod Baubles is using network checker : Accepting version 1.0.1.10
+[00:44:32] [Server thread/TRACE] [FML/Baubles]: Testing mod Baubles to verify it accepts its own version in a remote connection
+[00:44:32] [Server thread/TRACE] [FML/Baubles]: The mod Baubles accepts its own version (1.0.1.10)
+[00:44:32] [Server thread/DEBUG] [FML/Baubles]: Attempting to inject @SidedProxy classes into Baubles
+[00:44:32] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLConstructionEvent to mod Baubles
+[00:44:32] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Baubles took 0.019s
+[00:44:32] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLConstructionEvent to mod Thaumcraft
+[00:44:32] [Server thread/TRACE] [FML/Thaumcraft]: Mod Thaumcraft is using network checker : Accepting version 4.2.3.5
+[00:44:32] [Server thread/TRACE] [FML/Thaumcraft]: Testing mod Thaumcraft to verify it accepts its own version in a remote connection
+[00:44:32] [Server thread/TRACE] [FML/Thaumcraft]: The mod Thaumcraft accepts its own version (4.2.3.5)
+[00:44:32] [Server thread/DEBUG] [FML/Thaumcraft]: Attempting to inject @SidedProxy classes into Thaumcraft
+[00:44:32] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLConstructionEvent to mod Thaumcraft
+[00:44:32] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Thaumcraft took 0.652s
+[00:44:32] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sending event FMLConstructionEvent to mod tragicVillager
+[00:44:32] [Server thread/TRACE] [FML/tragicVillager]: Mod tragicVillager is using network checker : Accepting version 1.7.10-2
+[00:44:32] [Server thread/TRACE] [FML/tragicVillager]: Testing mod tragicVillager to verify it accepts its own version in a remote connection
+[00:44:32] [Server thread/TRACE] [FML/tragicVillager]: The mod tragicVillager accepts its own version (1.7.10-2)
+[00:44:32] [Server thread/DEBUG] [FML/tragicVillager]: Attempting to inject @SidedProxy classes into tragicVillager
+[00:44:32] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sent event FMLConstructionEvent to mod tragicVillager
+[00:44:32] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TragicVillager took 0.008s
+[00:44:32] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLConstructionEvent to mod TwilightForest
+[00:44:33] [Server thread/TRACE] [FML/TwilightForest]: Mod TwilightForest is using network checker : Accepting version 2.3.7
+[00:44:33] [Server thread/TRACE] [FML/TwilightForest]: Testing mod TwilightForest to verify it accepts its own version in a remote connection
+[00:44:33] [Server thread/TRACE] [FML/TwilightForest]: The mod TwilightForest accepts its own version (2.3.7)
+[00:44:33] [Server thread/DEBUG] [FML/TwilightForest]: Attempting to inject @SidedProxy classes into TwilightForest
+[00:44:33] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLConstructionEvent to mod TwilightForest
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: Construction - The Twilight Forest took 0.074s
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 3.887s
+[00:44:33] [Server thread/DEBUG] [FML/]: Mod signature data
+[00:44:33] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[00:44:33] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		(de041f9f6187debbc77034a344134053277aa3b0) IC2	(IndustrialCraft 2	2.2.814-experimental)	industrialcraft-2-2.2.814-experimental.jar
+[00:44:33] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[00:44:33] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		cocoainputcore	(CocoaInputCore	1.0.0)	minecraft.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		net.minecraft.scalar.cutall.mod_CutAllSMP	(CutAllSMP	2.5.0)	1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip
+[00:44:33] [Server thread/DEBUG] [FML/]: 		net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP	(PickupWidelySMP	1.2.3)	1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip
+[00:44:33] [Server thread/DEBUG] [FML/]: 		AdvancedSolarPanel	(Advanced Solar Panels	1.7.10-3.5.1)	AdvancedSolarPanel-1.7.10-3.5.1.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		AnimationAPI	(AnimationAPI	1.2.4)	AnimationAPI-1.7.10-1.2.4.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		CocoaInput	(CocoaInput	2.1.10)	CocoaInput-1.7.10-2.1.10.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		craftguide	(CraftGuide	1.6.8.2)	CraftGuide-1.6.8.2-forge.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		flansmod	(Flan's Mod	4.9.0)	Flans Mod-1.7.10-4.9.0.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		inventorytweaks	(Inventory Tweaks	1.59-dev-152-cf6e263)	InventoryTweaks-1.59-dev-152.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		Baubles	(Baubles	1.0.1.10)	Baubles-1.7.10-1.0.1.10.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		Thaumcraft	(Thaumcraft	4.2.3.5)	Thaumcraft-1.7.10-4.2.3.5.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		tragicVillager	(TragicVillager	1.7.10-2)	TragicVillager-1.7.10-2.jar
+[00:44:33] [Server thread/DEBUG] [FML/]: 		TwilightForest	(The Twilight Forest	2.3.7)	twilightforest-1.7.10-2.3.7.jar
+[00:44:33] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[00:44:33] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[00:44:33] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[00:44:33] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[00:44:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[00:44:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[00:44:33] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[00:44:33] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[00:44:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[00:44:33] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[00:44:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.082s
+[00:44:33] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sending event FMLPreInitializationEvent to mod cocoainputcore
+[00:44:33] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sent event FMLPreInitializationEvent to mod cocoainputcore
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CocoaInputCore took 0.001s
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CutAllSMP took 0.034s
+[00:44:33] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - PickupWidelySMP took 0.064s
+[00:44:33] [Server thread/TRACE] [IC2/IC2]: Sending event FMLPreInitializationEvent to mod IC2
+[00:44:33] [Server thread/DEBUG] [IC2.General/IC2]: Starting pre-init.
+[00:44:34] [ic2-poolthread-1/DEBUG] [IC2.Resource/IC2]: Translations loaded from file /Users/kotone/Library/Application Support/minecraft/server/mods/industrialcraft-2-2.2.814-experimental.jar.
+[00:44:38] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankElectricMachine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[00:44:38] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankStandardMaschine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[00:44:41] [Server thread/DEBUG] [FML/IC2]: Method ic2.core.AdvRecipe.expand(Ljava/lang/Object;)Ljava/util/List;: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Itnt as IC2.Itnt
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Nuke as IC2.Nuke
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
+[00:44:42] [Server thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Particle as IC2.Particle
+[00:44:42] [Server thread/DEBUG] [IC2.General/IC2]: Finished pre-init after 8602 ms.
+[00:44:42] [Server thread/TRACE] [IC2/IC2]: Sent event FMLPreInitializationEvent to mod IC2
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - IndustrialCraft 2 took 8.604s
+[00:44:42] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLPreInitializationEvent to mod AdvancedSolarPanel
+[00:44:42] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLPreInitializationEvent to mod AdvancedSolarPanel
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Advanced Solar Panels took 0.088s
+[00:44:42] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLPreInitializationEvent to mod AnimationAPI
+[00:44:42] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLPreInitializationEvent to mod AnimationAPI
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - AnimationAPI took 0.001s
+[00:44:42] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sending event FMLPreInitializationEvent to mod CocoaInput
+[00:44:42] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sent event FMLPreInitializationEvent to mod CocoaInput
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CocoaInput took 0.001s
+[00:44:42] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLPreInitializationEvent to mod craftguide
+[00:44:42] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLPreInitializationEvent to mod craftguide
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CraftGuide took 0.451s
+[00:44:42] [Server thread/TRACE] [flansmod/flansmod]: Sending event FMLPreInitializationEvent to mod flansmod
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Preinitialising Flan's mod.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded content pack list server side.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded part.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded bullet.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded attachment.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded grenade.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded gun.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded aa.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded vehicle.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded plane.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded mechaItem.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded mecha.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded tool.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded armour.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded armourBox.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded box.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded playerClass.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded team.
+[00:44:42] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Preinitializing complete.
+[00:44:42] [Server thread/TRACE] [flansmod/flansmod]: Sent event FMLPreInitializationEvent to mod flansmod
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Flan's Mod took 0.268s
+[00:44:42] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sending event FMLPreInitializationEvent to mod inventorytweaks
+[00:44:42] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sent event FMLPreInitializationEvent to mod inventorytweaks
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Inventory Tweaks took 0.001s
+[00:44:42] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLPreInitializationEvent to mod Baubles
+[00:44:42] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLPreInitializationEvent to mod Baubles
+[00:44:42] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Baubles took 0.054s
+[00:44:42] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLPreInitializationEvent to mod Thaumcraft
+[00:44:44] [Server thread/DEBUG] [FML/Thaumcraft]: Method thaumcraft.common.tiles.TileCrucible.fill(Lnet/minecraftforge/common/util/ForgeDirection;Lnet/minecraftforge/fluids/FluidStack;Z)I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[00:44:46] [Server thread/DEBUG] [FML/Thaumcraft]: Method thaumcraft.common.entities.golems.EntityGolemBase.updateCarried()V: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[00:44:46] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLPreInitializationEvent to mod Thaumcraft
+[00:44:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Thaumcraft took 3.623s
+[00:44:46] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sending event FMLPreInitializationEvent to mod tragicVillager
+[00:44:46] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sent event FMLPreInitializationEvent to mod tragicVillager
+[00:44:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - TragicVillager took 0.012s
+[00:44:46] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLPreInitializationEvent to mod TwilightForest
+[00:44:48] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLPreInitializationEvent to mod TwilightForest
+[00:44:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - The Twilight Forest took 2.320s
+[00:44:48] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 15.602s
+[00:44:48] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:44:48] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:44:48] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:44:48] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:44:49] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[00:44:49] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[00:44:49] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[00:44:49] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[00:44:49] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[00:44:49] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[00:44:49] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sending event FMLInitializationEvent to mod cocoainputcore
+[00:44:49] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sent event FMLInitializationEvent to mod cocoainputcore
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CocoaInputCore took 0.000s
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CutAllSMP took 0.002s
+[00:44:49] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - PickupWidelySMP took 0.002s
+[00:44:49] [Server thread/TRACE] [IC2/IC2]: Sending event FMLInitializationEvent to mod IC2
+[00:44:49] [Server thread/DEBUG] [IC2.General/IC2]: Starting init.
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 267 out of 267 recipes for shaped recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 76 out of 76 recipes for shapeless recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 17 out of 17 recipes for block cutter recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 48 out of 48 recipes for compressor recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 12 out of 12 recipes for extractor recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 64 out of 64 recipes for macerator recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 4 out of 4 recipes for metal former cutting recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[00:44:50] [Server thread/INFO] [IC2.Recipe/IC2]: Successfully loaded 25 out of 25 recipes for thermal centrifuge recipes
+[00:44:50] [Server thread/DEBUG] [IC2.Recipe/IC2]: 0 recipes failed to load in the first pass.
+[00:44:50] [Server thread/DEBUG] [IC2.General/IC2]: Finished init after 522 ms.
+[00:44:50] [Server thread/TRACE] [IC2/IC2]: Sent event FMLInitializationEvent to mod IC2
+[00:44:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - IndustrialCraft 2 took 0.523s
+[00:44:50] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLInitializationEvent to mod AdvancedSolarPanel
+[00:44:50] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLInitializationEvent to mod AdvancedSolarPanel
+[00:44:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Advanced Solar Panels took 0.016s
+[00:44:50] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLInitializationEvent to mod AnimationAPI
+[00:44:50] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLInitializationEvent to mod AnimationAPI
+[00:44:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - AnimationAPI took 0.004s
+[00:44:50] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sending event FMLInitializationEvent to mod CocoaInput
+[00:44:50] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sent event FMLInitializationEvent to mod CocoaInput
+[00:44:50] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CocoaInput took 0.524s
+[00:44:50] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLInitializationEvent to mod craftguide
+[00:44:50] [Server thread/WARN] [craftguide/craftguide]: 
+java.lang.NoSuchMethodException: ic2.core.util.Config.getFloat(java.lang.String)
+	at java.lang.Class.getMethod(Class.java:1786) ~[?:1.8.0_73]
+	at uristqwerty.CraftGuide.recipes.IC2GeneratorFuel.getGeneratorMult(IC2GeneratorFuel.java:63) [IC2GeneratorFuel.class:?]
+	at uristqwerty.CraftGuide.recipes.IC2GeneratorFuel.<init>(IC2GeneratorFuel.java:18) [IC2GeneratorFuel.class:?]
+	at uristqwerty.CraftGuide.recipes.IC2ExperimentalRecipes.<init>(IC2ExperimentalRecipes.java:53) [IC2ExperimentalRecipes.class:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.8.0_73]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:1.8.0_73]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:1.8.0_73]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) [?:1.8.0_73]
+	at java.lang.Class.newInstance(Class.java:442) [?:1.8.0_73]
+	at uristqwerty.CraftGuide.CraftGuide.loadModRecipes(CraftGuide.java:123) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide.addIC2Recipes(CraftGuide.java:109) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide.init(CraftGuide.java:96) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide_FML.init(CraftGuide_FML.java:55) [CraftGuide_FML.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) [LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737) [Loader.class:?]
+	at cpw.mods.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:319) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[00:44:50] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLInitializationEvent to mod craftguide
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - CraftGuide took 0.356s
+[00:44:51] [Server thread/TRACE] [flansmod/flansmod]: Sending event FMLInitializationEvent to mod flansmod
+[00:44:51] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Initialising Flan's Mod.
+[00:44:51] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loaded recipes.
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.teams.EntityFlagpole
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.teams.EntityFlag
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.teams.EntityTeamItem
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.teams.EntityGunItem
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.driveables.EntityPlane
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.driveables.EntityVehicle
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.driveables.EntitySeat
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.driveables.EntityWheel
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.tools.EntityParachute
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.driveables.mechas.EntityMecha
+[00:44:51] [Server thread/TRACE] [FML/flansmod]: Automatically registered mod flansmod entity Bullet as flansmod.Bullet
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.guns.EntityGrenade
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.guns.EntityMG
+[00:44:51] [Server thread/DEBUG] [FML/flansmod]: Skipping automatic mod flansmod entity registration for already registered class com.flansmod.common.guns.EntityAAGun
+[00:44:51] [Server thread/INFO] [STDOUT/flansmod]: [com.flansmod.common.FlansMod:log:549]: [Flan's Mod] Loading complete.
+[00:44:51] [Server thread/TRACE] [flansmod/flansmod]: Sent event FMLInitializationEvent to mod flansmod
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Flan's Mod took 0.443s
+[00:44:51] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sending event FMLInitializationEvent to mod inventorytweaks
+[00:44:51] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sent event FMLInitializationEvent to mod inventorytweaks
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Inventory Tweaks took 0.016s
+[00:44:51] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLInitializationEvent to mod Baubles
+[00:44:51] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLInitializationEvent to mod Baubles
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Baubles took 0.001s
+[00:44:51] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLInitializationEvent to mod Thaumcraft
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity SpecialItem as Thaumcraft.SpecialItem
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PermanentItem as Thaumcraft.PermanentItem
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FollowItem as Thaumcraft.FollowItem
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity AspectOrb as Thaumcraft.AspectOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FallingTaint as Thaumcraft.FallingTaint
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Alumentum as Thaumcraft.Alumentum
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PrimalOrb as Thaumcraft.PrimalOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity FrostShard as Thaumcraft.FrostShard
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Dart as Thaumcraft.Dart
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PrimalArrow as Thaumcraft.PrimalArrow
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity PechBlast as Thaumcraft.PechBlast
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchOrb as Thaumcraft.EldritchOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity BottleTaint as Thaumcraft.BottleTaint
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GolemOrb as Thaumcraft.GolemOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ShockOrb as Thaumcraft.ShockOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ExplosiveOrb as Thaumcraft.ExplosiveOrb
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Ember as Thaumcraft.Ember
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Golem as Thaumcraft.Golem
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TravelingTrunk as Thaumcraft.TravelingTrunk
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity BrainyZombie as Thaumcraft.BrainyZombie
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GiantBrainyZombie as Thaumcraft.GiantBrainyZombie
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Wisp as Thaumcraft.Wisp
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Firebat as Thaumcraft.Firebat
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Pech as Thaumcraft.Pech
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity MindSpider as Thaumcraft.MindSpider
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchGuardian as Thaumcraft.EldritchGuardian
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchWarden as Thaumcraft.EldritchWarden
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistKnight as Thaumcraft.CultistKnight
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistCleric as Thaumcraft.CultistCleric
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistLeader as Thaumcraft.CultistLeader
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity CultistPortal as Thaumcraft.CultistPortal
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchGolem as Thaumcraft.EldritchGolem
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity EldritchCrab as Thaumcraft.EldritchCrab
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity InhabitedZombie as Thaumcraft.InhabitedZombie
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity ThaumSlime as Thaumcraft.ThaumSlime
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSpider as Thaumcraft.TaintSpider
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity Taintacle as Thaumcraft.Taintacle
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintacleTiny as Thaumcraft.TaintacleTiny
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSpore as Thaumcraft.TaintSpore
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSwarmer as Thaumcraft.TaintSwarmer
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintSwarm as Thaumcraft.TaintSwarm
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedChicken as Thaumcraft.TaintedChicken
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedCow as Thaumcraft.TaintedCow
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedCreeper as Thaumcraft.TaintedCreeper
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedPig as Thaumcraft.TaintedPig
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedSheep as Thaumcraft.TaintedSheep
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintedVillager as Thaumcraft.TaintedVillager
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity TaintacleGiant as Thaumcraft.TaintacleGiant
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity SpecialItemGrate as Thaumcraft.SpecialItemGrate
+[00:44:51] [Server thread/TRACE] [FML/Thaumcraft]: Automatically registered mod Thaumcraft entity GolemBobber as Thaumcraft.GolemBobber
+[00:44:51] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLInitializationEvent to mod Thaumcraft
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Thaumcraft took 0.099s
+[00:44:51] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sending event FMLInitializationEvent to mod tragicVillager
+[00:44:51] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sent event FMLInitializationEvent to mod tragicVillager
+[00:44:51] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - TragicVillager took 0.001s
+[00:44:51] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLInitializationEvent to mod TwilightForest
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Wild Boar as TwilightForest.Wild Boar
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Bighorn Sheep as TwilightForest.Bighorn Sheep
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Wild Deer as TwilightForest.Wild Deer
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Redcap as TwilightForest.Redcap
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Swarm Spider as TwilightForest.Swarm Spider
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Naga as TwilightForest.Naga
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Skeleton Druid as TwilightForest.Skeleton Druid
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Hostile Wolf as TwilightForest.Hostile Wolf
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Twilight Wraith as TwilightForest.Twilight Wraith
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Hedge Spider as TwilightForest.Hedge Spider
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Hydra as TwilightForest.Hydra
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Twilight Lich as TwilightForest.Twilight Lich
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Glacier Penguin as TwilightForest.Glacier Penguin
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Lich Minion as TwilightForest.Lich Minion
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Loyal Zombie as TwilightForest.Loyal Zombie
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Tiny Bird as TwilightForest.Tiny Bird
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Forest Squirrel as TwilightForest.Forest Squirrel
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Forest Bunny as TwilightForest.Forest Bunny
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Forest Raven as TwilightForest.Forest Raven
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Questing Ram as TwilightForest.Questing Ram
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Twilight Kobold as TwilightForest.Twilight Kobold
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Mosquito Swarm as TwilightForest.Mosquito Swarm
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Death Tome as TwilightForest.Death Tome
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Minotaur as TwilightForest.Minotaur
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Minoshroom as TwilightForest.Minoshroom
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Fire Beetle as TwilightForest.Fire Beetle
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Slime Beetle as TwilightForest.Slime Beetle
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Pinch Beetle as TwilightForest.Pinch Beetle
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Maze Slime as TwilightForest.Maze Slime
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Redcap Sapper as TwilightForest.Redcap Sapper
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Mist Wolf as TwilightForest.Mist Wolf
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity King Spider as TwilightForest.King Spider
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Firefly as TwilightForest.Firefly
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Mini Ghast as TwilightForest.Mini Ghast
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Tower Ghast as TwilightForest.Tower Ghast
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Tower Golem as TwilightForest.Tower Golem
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Tower Termite as TwilightForest.Tower Termite
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Redscale Broodling as TwilightForest.Redscale Broodling
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Tower Boss as TwilightForest.Tower Boss
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Block&Chain Goblin as TwilightForest.Block&Chain Goblin
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Upper Goblin Knight as TwilightForest.Upper Goblin Knight
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Lower Goblin Knight as TwilightForest.Lower Goblin Knight
+[00:44:51] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Helmet Crab as TwilightForest.Helmet Crab
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Knight Phantom as TwilightForest.Knight Phantom
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Yeti as TwilightForest.Yeti
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Yeti Boss as TwilightForest.Yeti Boss
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity WinterWolf as TwilightForest.WinterWolf
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity SnowGuardian as TwilightForest.SnowGuardian
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Stable Ice Core as TwilightForest.Stable Ice Core
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Unstable Ice Core as TwilightForest.Unstable Ice Core
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Snow Queen as TwilightForest.Snow Queen
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Troll as TwilightForest.Troll
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Giant Miner as TwilightForest.Giant Miner
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Armored Giant as TwilightForest.Armored Giant
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Ice Crystal as TwilightForest.Ice Crystal
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Apocalypse Cube as TwilightForest.Apocalypse Cube
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity Adherent as TwilightForest.Adherent
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity HydraHead as TwilightForest.HydraHead
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfnaturebolt as TwilightForest.tfnaturebolt
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tflichbolt as TwilightForest.tflichbolt
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tftwilightwandbolt as TwilightForest.tftwilightwandbolt
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tftomebolt as TwilightForest.tftomebolt
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfhydramortar as TwilightForest.tfhydramortar
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tflichbomb as TwilightForest.tflichbomb
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfmoonwormshot as TwilightForest.tfmoonwormshot
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfslimeblob as TwilightForest.tfslimeblob
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfcharmeffect as TwilightForest.tfcharmeffect
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfthrownaxe as TwilightForest.tfthrownaxe
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfthrownpick as TwilightForest.tfthrownpick
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tffallingice as TwilightForest.tffallingice
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfthrownice as TwilightForest.tfthrownice
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfSeekerArrow as TwilightForest.tfSeekerArrow
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tficesnowball as TwilightForest.tficesnowball
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfchainBlock as TwilightForest.tfchainBlock
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfcubeannihilation as TwilightForest.tfcubeannihilation
+[00:44:52] [Server thread/TRACE] [FML/TwilightForest]: Automatically registered mod TwilightForest entity tfslideblock as TwilightForest.tfslideblock
+[00:44:52] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLInitializationEvent to mod TwilightForest
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - The Twilight Forest took 0.815s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 2.806s
+[00:44:52] [Server thread/ERROR] [FML/]: Fatal errors were detected during the transition from INITIALIZATION to POSTINITIALIZATION. Loading cannot continue
+[00:44:52] [Server thread/ERROR] [FML/]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHI	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHI	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UCHI	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UCHI	cocoainputcore{1.0.0} [CocoaInputCore] (minecraft.jar) 
+	UCHI	net.minecraft.scalar.cutall.mod_CutAllSMP{2.5.0} [CutAllSMP] (1.7.10用[1.7.10][forge1291]mod_CutAllSMP_v2.5.0.zip) 
+	UCHI	net.minecraft.scalar.pickupwidely.mod_PickupWidelySMP{1.2.3} [PickupWidelySMP] (1.7.x用[1.7.2][forge1033]mod_PickupWidelySMP_v1.2.3.zip.zip) 
+	UCHI	IC2{2.2.814-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.814-experimental.jar) 
+	UCHI	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel-1.7.10-3.5.1.jar) 
+	UCHI	AnimationAPI{1.2.4} [AnimationAPI] (AnimationAPI-1.7.10-1.2.4.jar) 
+	UCHE	CocoaInput{2.1.10} [CocoaInput] (CocoaInput-1.7.10-2.1.10.jar) 
+	UCHI	craftguide{1.6.8.2} [CraftGuide] (CraftGuide-1.6.8.2-forge.jar) 
+	UCHI	flansmod{4.9.0} [Flan's Mod] (Flans Mod-1.7.10-4.9.0.jar) 
+	UCHI	inventorytweaks{1.59-dev-152-cf6e263} [Inventory Tweaks] (InventoryTweaks-1.59-dev-152.jar) 
+	UCHI	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHI	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft-1.7.10-4.2.3.5.jar) 
+	UCHI	tragicVillager{1.7.10-2} [TragicVillager] (TragicVillager-1.7.10-2.jar) 
+	UCHI	TwilightForest{2.3.7} [The Twilight Forest] (twilightforest-1.7.10-2.3.7.jar) 
+[00:44:52] [Server thread/ERROR] [FML/]: The following problems were captured during this phase
+[00:44:52] [Server thread/ERROR] [FML/]: Caught exception from CocoaInput
+java.lang.NoClassDefFoundError: net/minecraft/client/gui/GuiScreen
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:1.8.0_73]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[?:1.8.0_73]
+	at java.lang.Class.getConstructor0(Class.java:3075) ~[?:1.8.0_73]
+	at java.lang.Class.getConstructor(Class.java:1825) ~[?:1.8.0_73]
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:101) ~[EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:85) ~[EventBus.class:?]
+	at com.Axeryok.CocoaInput.CocoaInput.init(CocoaInput.java:91) ~[CocoaInput.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532) ~[FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_73]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_73]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_73]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:737) [Loader.class:?]
+	at cpw.mods.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:97) [FMLServerHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:319) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:210) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.GuiScreen
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_73]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_73]
+	... 38 more
+Caused by: java.lang.RuntimeException: Attempted to load class bdw for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50) ~[forge-1.7.10-10.13.4.1614-1.7.10-universal.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_73]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_73]
+	... 38 more
+[00:44:52] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[00:44:52] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[00:44:52] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[00:44:52] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[00:44:52] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[00:44:52] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[00:44:52] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.004s
+[00:44:52] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sending event FMLModIdMappingEvent to mod cocoainputcore
+[00:44:52] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sent event FMLModIdMappingEvent to mod cocoainputcore
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CocoaInputCore took 0.001s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CutAllSMP took 0.000s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - PickupWidelySMP took 0.001s
+[00:44:52] [Server thread/TRACE] [IC2/IC2]: Sending event FMLModIdMappingEvent to mod IC2
+[00:44:52] [Server thread/TRACE] [IC2/IC2]: Sent event FMLModIdMappingEvent to mod IC2
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - IndustrialCraft 2 took 0.001s
+[00:44:52] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLModIdMappingEvent to mod AdvancedSolarPanel
+[00:44:52] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLModIdMappingEvent to mod AdvancedSolarPanel
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Advanced Solar Panels took 0.001s
+[00:44:52] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLModIdMappingEvent to mod AnimationAPI
+[00:44:52] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLModIdMappingEvent to mod AnimationAPI
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AnimationAPI took 0.000s
+[00:44:52] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sending event FMLModIdMappingEvent to mod CocoaInput
+[00:44:52] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sent event FMLModIdMappingEvent to mod CocoaInput
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CocoaInput took 0.001s
+[00:44:52] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLModIdMappingEvent to mod craftguide
+[00:44:52] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLModIdMappingEvent to mod craftguide
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CraftGuide took 0.001s
+[00:44:52] [Server thread/TRACE] [flansmod/flansmod]: Sending event FMLModIdMappingEvent to mod flansmod
+[00:44:52] [Server thread/TRACE] [flansmod/flansmod]: Sent event FMLModIdMappingEvent to mod flansmod
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Flan's Mod took 0.000s
+[00:44:52] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sending event FMLModIdMappingEvent to mod inventorytweaks
+[00:44:52] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sent event FMLModIdMappingEvent to mod inventorytweaks
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Inventory Tweaks took 0.001s
+[00:44:52] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLModIdMappingEvent to mod Baubles
+[00:44:52] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLModIdMappingEvent to mod Baubles
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Baubles took 0.000s
+[00:44:52] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLModIdMappingEvent to mod Thaumcraft
+[00:44:52] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLModIdMappingEvent to mod Thaumcraft
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Thaumcraft took 0.000s
+[00:44:52] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sending event FMLModIdMappingEvent to mod tragicVillager
+[00:44:52] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sent event FMLModIdMappingEvent to mod tragicVillager
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - TragicVillager took 0.001s
+[00:44:52] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLModIdMappingEvent to mod TwilightForest
+[00:44:52] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLModIdMappingEvent to mod TwilightForest
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - The Twilight Forest took 0.000s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.016s
+[00:44:52] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:44:52] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:44:52] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[00:44:52] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.003s
+[00:44:52] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[00:44:52] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.001s
+[00:44:52] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[00:44:52] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.001s
+[00:44:52] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sending event FMLServerStoppedEvent to mod cocoainputcore
+[00:44:52] [Server thread/TRACE] [cocoainputcore/cocoainputcore]: Sent event FMLServerStoppedEvent to mod cocoainputcore
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CocoaInputCore took 0.001s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CutAllSMP took 0.001s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - PickupWidelySMP took 0.001s
+[00:44:52] [Server thread/TRACE] [IC2/IC2]: Sending event FMLServerStoppedEvent to mod IC2
+[00:44:52] [Server thread/TRACE] [IC2/IC2]: Sent event FMLServerStoppedEvent to mod IC2
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - IndustrialCraft 2 took 0.002s
+[00:44:52] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sending event FMLServerStoppedEvent to mod AdvancedSolarPanel
+[00:44:52] [Server thread/TRACE] [AdvancedSolarPanel/AdvancedSolarPanel]: Sent event FMLServerStoppedEvent to mod AdvancedSolarPanel
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Advanced Solar Panels took 0.001s
+[00:44:52] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLServerStoppedEvent to mod AnimationAPI
+[00:44:52] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLServerStoppedEvent to mod AnimationAPI
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AnimationAPI took 0.001s
+[00:44:52] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sending event FMLServerStoppedEvent to mod CocoaInput
+[00:44:52] [Server thread/TRACE] [CocoaInput/CocoaInput]: Sent event FMLServerStoppedEvent to mod CocoaInput
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CocoaInput took 0.001s
+[00:44:52] [Server thread/TRACE] [craftguide/craftguide]: Sending event FMLServerStoppedEvent to mod craftguide
+[00:44:52] [Server thread/TRACE] [craftguide/craftguide]: Sent event FMLServerStoppedEvent to mod craftguide
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CraftGuide took 0.001s
+[00:44:52] [Server thread/TRACE] [flansmod/flansmod]: Sending event FMLServerStoppedEvent to mod flansmod
+[00:44:52] [Server thread/TRACE] [flansmod/flansmod]: Sent event FMLServerStoppedEvent to mod flansmod
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Flan's Mod took 0.001s
+[00:44:52] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sending event FMLServerStoppedEvent to mod inventorytweaks
+[00:44:52] [Server thread/TRACE] [inventorytweaks/inventorytweaks]: Sent event FMLServerStoppedEvent to mod inventorytweaks
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Inventory Tweaks took 0.001s
+[00:44:52] [Server thread/TRACE] [Baubles/Baubles]: Sending event FMLServerStoppedEvent to mod Baubles
+[00:44:52] [Server thread/TRACE] [Baubles/Baubles]: Sent event FMLServerStoppedEvent to mod Baubles
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Baubles took 0.001s
+[00:44:52] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sending event FMLServerStoppedEvent to mod Thaumcraft
+[00:44:52] [Server thread/TRACE] [Thaumcraft/Thaumcraft]: Sent event FMLServerStoppedEvent to mod Thaumcraft
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Thaumcraft took 0.001s
+[00:44:52] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sending event FMLServerStoppedEvent to mod tragicVillager
+[00:44:52] [Server thread/TRACE] [tragicVillager/tragicVillager]: Sent event FMLServerStoppedEvent to mod tragicVillager
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TragicVillager took 0.001s
+[00:44:52] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sending event FMLServerStoppedEvent to mod TwilightForest
+[00:44:52] [Server thread/TRACE] [TwilightForest/TwilightForest]: Sent event FMLServerStoppedEvent to mod TwilightForest
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - The Twilight Forest took 0.000s
+[00:44:52] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.017s
+[00:44:52] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[00:44:52] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.
